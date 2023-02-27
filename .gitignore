@@ -1,0 +1,4 @@
+.vs
+backend/.vs/
+backend/__pycache__/
+backend/venv/
