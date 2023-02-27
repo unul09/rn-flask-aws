@@ -7,7 +7,7 @@ const App = () => {
 
     const getMovies = async () => {
         try {
-            const response = await fetch('http://52.5.25.113:5000/movies');
+            const response = await fetch('http://192.168.91.4:5000/movies');
             const json = await response.json();
             setData(json.movies);
         } catch (error) {
